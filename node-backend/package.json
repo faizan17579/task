@@ -1,0 +1,21 @@
+{
+  "name": "node-backend",
+  "version": "1.0.0",
+  "description": "WebSocket broker for real-time weather data",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.ts"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.2",
+    "redis": "^4.6.12",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0"
+  }
+}
